@@ -5,6 +5,7 @@
 
   --green: #56b280;
   --green-light: #5bc08a;
+  --green-border: rgba(86, 178, 128, 0.2);
 
   --white: #ffffff;
   --black: #000000;
@@ -32,6 +33,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: 'poppins', 'roboto', sans-serif;
 }
 
 body {
