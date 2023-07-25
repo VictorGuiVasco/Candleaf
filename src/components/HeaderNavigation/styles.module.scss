@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+
+  border-bottom: 1px solid rgba(86, 178, 128, 0.2);
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1100px;
+  height: 75px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  align-items: center;
+
+  color: #272727;
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      justify-self: start;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  img {
+    justify-self: start;
+  }
+
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+
+.middle-buttons {
+  justify-self: center;
+
+  gap: 40px;
+  color: #272727;
+}
+
+.icons-buttons {
+  gap: 30px;
+  justify-self: end;
+}
