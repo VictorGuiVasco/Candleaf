@@ -1,14 +1,14 @@
-import styles from './page.module.scss'
+import { Banner } from '@/components/home-compents'
 import { HeaderNavigation } from '@/components/HeaderNavigation'
+
+import styles from './page.module.scss'
 
 function Home() {
   return (
     <main className={styles.main}>
       <HeaderNavigation />
 
-      <section>
-        <p>teste</p>
-      </section>
+      <Banner />
     </main>
   )
 }
