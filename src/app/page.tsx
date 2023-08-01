@@ -1,3 +1,4 @@
+import { Footer } from '@/components/Footer'
 import { Banner } from '@/components/home-compents'
 import { HeaderNavigation } from '@/components/HeaderNavigation'
 
@@ -9,6 +10,8 @@ function Home() {
       <HeaderNavigation />
 
       <Banner />
+
+      <Footer />
     </main>
   )
 }
