@@ -10,7 +10,7 @@ function ProductCard() {
       <Image src={candleImg} alt="candle" priority={false} />
 
       <div className={styles['product-info']}>
-        <h1 className={poppins.className}>Spiced Mint</h1>
+        <h1>Spiced Mint</h1>
         <span className={roboto.className}>9.99$</span>
       </div>
     </div>

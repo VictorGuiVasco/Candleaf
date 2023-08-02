@@ -1,5 +1,9 @@
 import { Footer } from '@/components/Footer'
-import { Banner, ProductsPanel } from '@/components/home-components'
+import {
+  Banner,
+  BenefitsPanel,
+  ProductsPanel,
+} from '@/components/home-components'
 import { HeaderNavigation } from '@/components/HeaderNavigation'
 
 import styles from './page.module.scss'
@@ -11,6 +15,7 @@ function Home() {
 
       <Banner />
       <ProductsPanel />
+      <BenefitsPanel />
 
       <Footer />
     </main>

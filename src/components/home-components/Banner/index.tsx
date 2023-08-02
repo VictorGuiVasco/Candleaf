@@ -7,9 +7,9 @@ function Banner() {
     <div className={styles.banner}>
       <div className={styles['card-banner']}>
         <h1>🌱</h1>
-        <h1 className={poppins.className}> The nature candle</h1>
+        <h1> The nature candle</h1>
 
-        <p className={poppins.className}>
+        <p>
           All handmade with natural soy wax, Candleaf is a companion for all
           your pleasure moments
         </p>
