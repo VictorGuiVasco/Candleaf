@@ -1,0 +1,52 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto;
+  max-width: var(--max-width);
+
+  padding: 5.625rem 1.875rem;
+
+  & > h1 {
+    color: #0b254b;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    letter-spacing: -0.9px;
+  }
+
+  & > p {
+    margin-top: 0.9375rem;
+    margin-bottom: 3.75rem;
+
+    text-align: center;
+
+    color: #5e6e89;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.725rem;
+    letter-spacing: 0.1px;
+  }
+
+  @media (max-width: 720px) {
+    padding: 3.125rem 0;
+  }
+
+  @media (max-width: 720px) {
+    margin: 0 0.9375rem;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  justify-content: center;
+  gap: 1.875rem;
+
+  @media (max-width: 720px) {
+    gap: 1.25rem;
+  }
+}

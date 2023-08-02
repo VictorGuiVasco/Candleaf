@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 import { roboto } from '@/utils/fonts'
 
-import logoImg from '../../../public/assets/images/logo.svg'
-import userIcon from '../../../public/assets/icons/user.svg'
-import cartIcon from '../../../public/assets/icons/cart.svg'
-import menuIcon from '../../../public/assets/icons/hamburger-menu.svg'
-import chevronDownIcon from '../../../public/assets/icons/chevron-down.svg'
+import logoImg from '@/assets/images/logo.svg'
+import userIcon from '@/assets/icons/user.svg'
+import cartIcon from '@/assets/icons/cart.svg'
+import menuIcon from '@/assets/icons/hamburger-menu.svg'
+import chevronDownIcon from '@/assets/icons/chevron-down.svg'
 
 import styles from './styles.module.scss'
 
