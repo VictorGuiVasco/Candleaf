@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import { roboto } from '@/utils/fonts'
-
 import logoImg from '@/assets/images/logo.svg'
 import userIcon from '@/assets/icons/user.svg'
 import cartIcon from '@/assets/icons/cart.svg'
@@ -13,7 +11,7 @@ import styles from './styles.module.scss'
 
 function HeaderNavigation() {
   return (
-    <nav className={`${styles.nav} ${roboto.className} `}>
+    <nav className={styles.nav}>
       <div className={styles.wrapper}>
         <button className={styles.menu}>
           <Image src={menuIcon} alt={'menu'} priority />

@@ -1,6 +1,5 @@
-import { poppins } from '@/utils/fonts'
 import styles from './styles.module.scss'
-import { ProductCard } from '../Card'
+import { ProductCard } from '../CardProduct'
 
 function ProductsPanel() {
   return (

@@ -1,5 +1,3 @@
-import { poppins, roboto } from '@/utils/fonts'
-
 import styles from './styles.module.scss'
 
 function Banner() {
@@ -14,7 +12,7 @@ function Banner() {
           your pleasure moments
         </p>
 
-        <button className={roboto.className}>Discovery our collection</button>
+        <button>Discovery our collection</button>
       </div>
     </div>
   )

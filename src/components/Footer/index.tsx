@@ -1,14 +1,12 @@
 import Image from 'next/image'
 
-import { roboto } from '@/utils/fonts'
-
 import styles from './styles.module.scss'
 
 import logoImg from '@/assets/images/logo-offset.svg'
 
 function Footer() {
   return (
-    <footer className={`${styles.container} ${roboto.className}`}>
+    <footer className={styles.container}>
       <div className={styles['footer-wrapper']}>
         <div className={styles.separator}>
           <div />

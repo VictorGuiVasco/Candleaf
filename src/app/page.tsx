@@ -3,6 +3,7 @@ import {
   Banner,
   BenefitsPanel,
   ProductsPanel,
+  Testimonials,
 } from '@/components/home-components'
 import { HeaderNavigation } from '@/components/HeaderNavigation'
 
@@ -16,6 +17,8 @@ function Home() {
       <Banner />
       <ProductsPanel />
       <BenefitsPanel />
+      <Testimonials />
+      <ProductsPanel />
 
       <Footer />
     </main>

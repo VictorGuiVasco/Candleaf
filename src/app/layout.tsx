@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 
-import { poppins, roboto } from '@/utils/fonts'
-
 import './globals.scss'
+import '@smastrom/react-rating/style.css'
 
 export const metadata: Metadata = {
   title: 'Candleaf',

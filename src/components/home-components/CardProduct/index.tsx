@@ -2,7 +2,6 @@ import Image from 'next/image'
 import styles from './styles.module.scss'
 
 import candleImg from '@/assets/images/candle.png'
-import { poppins, roboto } from '@/utils/fonts'
 
 function ProductCard() {
   return (
@@ -11,7 +10,7 @@ function ProductCard() {
 
       <div className={styles['product-info']}>
         <h1>Spiced Mint</h1>
-        <span className={roboto.className}>9.99$</span>
+        <span>9.99$</span>
       </div>
     </div>
   )
