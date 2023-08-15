@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import logoImg from '@/assets/images/logo.svg'
-import userIcon from '@/assets/icons/user.svg'
-import cartIcon from '@/assets/icons/cart.svg'
-import menuIcon from '@/assets/icons/hamburger-menu.svg'
-import chevronDownIcon from '@/assets/icons/chevron-down.svg'
+import logoImg from '@/presentation/assets/images/logo.svg'
+import userIcon from '@/presentation/assets/icons/user.svg'
+import cartIcon from '@/presentation/assets/icons/cart.svg'
+import menuIcon from '@/presentation/assets/icons/hamburger-menu.svg'
+import chevronDownIcon from '@/presentation/assets/icons/chevron-down.svg'
 
 import styles from './styles.module.scss'
 

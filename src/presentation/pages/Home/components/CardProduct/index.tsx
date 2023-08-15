@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './styles.module.scss'
 
-import candleImg from '@/assets/images/candle.png'
+import candleImg from '@/presentation/assets/images/candle.png'
 
 function ProductCard() {
   return (

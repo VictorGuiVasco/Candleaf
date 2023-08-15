@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import styles from './styles.module.scss'
 
-import logoImg from '@/assets/images/logo-offset.svg'
+import logoImg from '@/presentation/assets/images/logo-offset.svg'
 
 function Footer() {
   return (

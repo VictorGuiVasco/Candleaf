@@ -6,9 +6,9 @@ import Image from 'next/image'
 // @ts-ignore
 import { Rating, ThinStar } from '@smastrom/react-rating'
 
-import avatarImg from '@/assets/images/avatar.png'
-import avatar2Img from '@/assets/images/avatar2.png'
-import avatar3Img from '@/assets/images/avatar3.png'
+import avatarImg from '@/presentation/assets/images/avatar.png'
+import avatar2Img from '@/presentation/assets/images/avatar2.png'
+import avatar3Img from '@/presentation/assets/images/avatar3.png'
 
 import styles from './styles.module.scss'
 

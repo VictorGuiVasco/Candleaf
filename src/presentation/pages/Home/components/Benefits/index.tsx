@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 import styles from './styles.module.scss'
 
-import mockupImg from '@/assets/images/mockups.png'
-import checkCircleIcon from '@/assets/icons/check-circle.svg'
+import mockupImg from '@/presentation/assets/images/mockups.png'
+import checkCircleIcon from '@/presentation/assets/icons/check-circle.svg'
 
 function BenefitsPanel() {
   return (
