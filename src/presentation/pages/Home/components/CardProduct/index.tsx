@@ -1,16 +1,27 @@
 import Image from 'next/image'
 import styles from './styles.module.scss'
 
-import candleImg from '@/presentation/assets/images/candle.png'
+import { Product } from '@/products'
+import { maskedToMoney } from '@/utils/currenceFormater'
 
-function ProductCard() {
+type ProductsProps = {
+  product: Product
+}
+
+function ProductCard({ product }: ProductsProps) {
   return (
     <div className={styles.card}>
-      <Image src={candleImg} alt="candle" priority={false} />
+      <Image
+        src={product.imgUrl}
+        width={220}
+        height={220}
+        alt={product.name}
+        priority={false}
+      />
 
       <div className={styles['product-info']}>
-        <h1>Spiced Mint</h1>
-        <span>9.99$</span>
+        <h1>{product?.name}</h1>
+        <span>{maskedToMoney(product.price)}</span>
       </div>
     </div>
   )

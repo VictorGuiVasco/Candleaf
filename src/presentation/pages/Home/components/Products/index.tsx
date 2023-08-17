@@ -1,7 +1,13 @@
 import styles from './styles.module.scss'
 import { ProductCard } from '../CardProduct'
 
-function ProductsPanel() {
+import { Product } from '@/products'
+
+type ProductsPanelProps = {
+  products: Product[]
+}
+
+function ProductsPanel({ products }: ProductsPanelProps) {
   return (
     <div className={styles.container}>
       <div className={styles.panel}>
@@ -9,12 +15,9 @@ function ProductsPanel() {
         <p>Order it for you or for your beloved ones</p>
 
         <div className={styles['card-container']}>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          {products.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
         </div>
       </div>
     </div>

@@ -9,16 +9,17 @@ import { HeaderNavigation } from '@/presentation/components/HeaderNavigation'
 
 import styles from './styles.module.scss'
 
+import { products } from '@/products'
+
 function HomePage() {
   return (
     <main className={styles.main}>
       <HeaderNavigation />
 
       <Banner />
-      <ProductsPanel />
+      <ProductsPanel products={products} />
       <BenefitsPanel />
       <Testimonials />
-      <ProductsPanel />
 
       <Footer />
     </main>
